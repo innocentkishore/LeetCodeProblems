@@ -22,7 +22,7 @@ class Solution {
         return res;
         
     }
-     public String res="";
+      String res="";
 
     public void helper(Node node,StringBuilder str){
         if(str.length()>res.length()){
