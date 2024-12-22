@@ -10,7 +10,6 @@ class Solution {
                 break;
             }
         }
-        System.out.print("index"+idx);
         if(idx==-1){
             for(int i=nums.length-1;i>=0;i--){
                 res[k++]=nums[i];
@@ -36,15 +35,10 @@ class Solution {
             }
             Arrays.sort(rh);
             m=0;
-            for(int i=0;i<rh.length;i++){
-                System.out.println("half"+rh[i]);
-            }
             for(int i=idx+1;i<nums.length;i++){
                 nums[i]=rh[m++];
             }
         }
-        for(int i=0;i<nums.length;i++){
-            // System.out.print(nums[i]);
-        }
+        
     }
 }
