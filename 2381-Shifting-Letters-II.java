@@ -18,7 +18,7 @@ class Solution {
         }
         for(int i=1;i<map.length;i++){
             map[i]+=map[i-1];
-            System.out.print(map[i]);
+            //System.out.print(map[i]);
         }
 
         for(int i=0;i<ch.length;i++){
